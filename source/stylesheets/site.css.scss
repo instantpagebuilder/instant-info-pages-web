@@ -1,11 +1,8 @@
 body {
-  background-color: #fbc547;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
+  background-color: #F2F5F7;
+  color: #212B36;
+  font-family: -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI,
+    Roboto, Helvetica Neue, sans-serif;
   text-align: center;
 }
 
@@ -18,7 +15,55 @@ a {
   }
 }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
+.illustration {
+  display: block;
+  margin-top: 20px;
+}
+
+.appstorebadge {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+
+.pages {
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.8;
+  display: table;
+  text-align: left;
+  list-style-position: inside;
+}
+
+.row {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 30px;
+}
+
+.column {
+  flex: 50%;
+}
+
+h1.column {
+  color: #212B36;
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+.terms  {
+  padding: 50px;
+  text-align: left;
 }
